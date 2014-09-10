@@ -4,9 +4,133 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/common.css">
 		<title>TG-webapp</title>
 	</head>
 	<body>
+		<!--header start-->
+		<div class="header">
+				<div class="head-top">
+							<div class="logo">
+									<h1><a href="http://w.51ping.com" title="大众点评网"><img alt="大众点评网" src="http://t3.dpfile.com/t/img/logo.v9.png"></a></h1>
+									<h2>会员卡</h2>
+							</div>
+							<div class="operat-list">
+									<p>您好，</p>
+									<span class="links">
+									        <a href="http://e.51ping.com/shopaccount/showmessages" onclick="_hip.push(['mv', { module: '3_mc_entermessage', action: 'click'}])">消息<span id="_msg_count"></span></a>|
+											
+											<a href="http://e.51ping.com/privilege/accountquery">帐号管理</a>|<a class="t-invite" href="http://e.51ping.com/slogout" rel="nofollow">退出</a>
+									</span>
+							</div>
+				</div>
+				<div class="head-nav">
+					<div class="inner">
+						<ul class="nav">
+									<li class="cur"><a href="http://e.51ping.com/shopportal/index.action"><span>首页</span></a></li>
+									<!---->
+									<li><a rel="nofollow" href="http://e.51ping.com/tuangou/login"><span>团购</span></a></li>
+									<!---->
+									<li><a rel="nofollow" href="http://e.51ping.com/mc/" onclick="pageTracker._trackPageview('dp_bc_navigation_mc');"><span>会员卡</span></a></li>
+									<!---->
+									<li><a rel="nofollow" href="http://e.51ping.com/yuding/booking_confirm.action"><span>订座</span></a></li>
+									<!---->
+									<!--
+									<li ><a rel="nofollow" href="http://e.51ping.com/shop/product/productListAction.action" onclick="pageTracker._trackPageview('dp_bc_navigation_shop');"><span>产品信息</span></a></li>
+									-->
+									<!---->
+									<li><a rel="nofollow" href="http://e.51ping.com/shopdiy/siteweb/mainPage"><span>推广产品</span></a></li>
+									<!---->
+									<li><a rel="nofollow" href="http://e.51ping.com/shopmanagement/shopinfo.action"><span>我的门店</span></a></li>
+									<!---->
+						</ul>
+						<span class="phone-num">商户服务热线：<strong>400-880-5597</strong></span>
+					</div>
+				</div>
+		</div>
+		<!--header end-->
+		<!-- @ main -->
+		<div class="bc-index-main">
+			<div class="i-colaside" style="height:450px">
+				<div class="hot-news">
+					<div class="hd">
+						<h4>最新公告</h4>
+						<a href="/shopportal/noticelist.action" class="icon-links">更多</a>
+					</div>
+						<div class="bd">
+							<ul>
+									<li>
+										<p class="tit"><a href="/shopportal/noticedetail.action?id=14">dsadasf</a></p>
+										<!--<span class="time">[2014-05-29 15:29]</span>-->
+									</li>
+									<li>
+										<p class="tit"><a href="/shopportal/noticedetail.action?id=13">Hello</a></p>
+										<!--<span class="time">[2014-05-22 15:34]</span>-->
+									</li>
+									<li>
+										<p class="tit"><a href="/shopportal/noticedetail.action?id=10">登录密码设置小贴士</a></p>
+										<!--<span class="time">[2013-08-20 13:44]</span>-->
+									</li>
+									<li>
+										<p class="tit"><a href="/shopportal/noticedetail.action?id=9">活动券验证功能上线&入口</a></p>
+										<!--<span class="time">[2013-06-17 14:46]</span>-->
+									</li>
+							</ul>
+						</div>
+				</div>
+				<!--二维码-->
+				<div class="code-box">
+					<a class="c-mobile" href="javascript:;">
+						<i></i>
+						<h4>手机版</h4>
+						<p>手机验券，更快更方便</p>
+					</a>
+					<a class="c-weixin" href="javascript:;">
+						<i></i>
+						<h4>微信版</h4>
+						<p>实时了解门店数据、行业排名</p>
+					</a>
+				</div>
+				<div class="survey-box">
+					<a target="_blank" href="http://survey.dianping.com/index.php?sid=51849&lang=zh-Hans">
+						<i class="icon-sur"></i>调查问卷
+					</a>
+					<a class="s-reback" target="_blank" href="http://survey.dianping.com/index.php?sid=51849&lang=zh-Hans">
+						<i class="icon-reback"></i>使用反馈
+					</a>
+				</div>
+				<!-- end 二维码-->
+			</div>
+			<div class="i-colmain">
+				<!--
+				<h3 class="main-tit">您好</h3>
+				-->
+				<h3 class="main-tit">您好</h3>
+				<ul class="home-links" style="height:366px">
+					<!--<li class="no-1"><a href="#">团购验券</a></li> -->
+					<li class="no-1"><a href="http://e.51ping.com/tuangou/login" onclick="pageTracker._trackPageview('dp_bc_home_quicknavi_tg');" >团购</a></li>
+					<li class="no-3"><a href="/mc/" onclick="pageTracker._trackPageview('dp_bc_home_quicknavi_mc');">会员卡</a></li>
+					<li class="no-2"><a href="/yuding/booking_confirm.action" onclick="pageTracker._trackPageview('dp_bc_home_quicknavi_yuding');">预订</a></li>
+					<li class="no-4"><a href="/shopmanagement/shopinfo.action" onclick="pageTracker._trackPageview('dp_bc_home_quicknavi_shopmanager');">门店管理</a></li>
+
+		        <li class="no-5"><a href="/productreview/replyreview/reviewlist?star=10&star=20&star=30&star=40&star=50&reviewStatus=3" target="_blank" onclick="pageTracker._trackPageview('dp_bc_home_quicknavi_reviewmanagement');">口碑管理</a></li>
+		        </ul>
+			</div>
+		</div>
+		<!-- /@ main -->
+
+		<!--footer end-->
+		<div class="footer">
+				<p>
+					<a href="http://w.51ping.com/aboutus"  target="_blank">关于我们</a>|
+					<a href="http://w.51ping.com/aboutus/media"  target="_blank">媒体报道</a>|
+					<a href="http://w.51ping.com/business/promotion.html"  target="_blank">推广方式</a>|
+					<a href="http://w.51ping.com/business/showcase.html"  target="_blank">成功案例</a>|
+					<a href="http://w.51ping.com/contactus?tab=biz"  target="_blank">联系我们</a>
+		        </p>
+				<p>&copy;&nbsp;2003-2014&nbsp;dianping.com,All Rights Reserved.</p>
+		</div>
+		<!--footer end-->
 	</body>
 	<script src="js/libs/angular/angular.min.js"></script>
 </html>
